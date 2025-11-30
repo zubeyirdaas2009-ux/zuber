@@ -1,0 +1,170 @@
+body {
+     margin: 0;
+     background-color: #333333;
+     font-family: "Cairo", sans-serif;
+}
+
+.nav-hr {
+     height: 2px;
+     border: none;
+     background-color: rgb(191, 155, 24);
+     box-shadow: 0px 3px 100px rgb(191, 155, 24);
+}
+
+.nav-btn {
+     color: #ae7804;
+     background-color: #333333;
+     border: none;
+     margin-left: 20px;
+     margin-top: 10px;
+     font-size: x-large;
+     cursor: pointer;
+     transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+     color: #0077ff;
+}
+
+.home-h1 {
+     display: flex;
+     justify-content: center;
+}
+
+.h3 {
+     margin-left: auto;
+     margin-right: 20px;
+     color: #ae7804;
+     transition: 0.3s ease;
+}
+
+.h3:hover {
+     color: #0077ff;
+}
+
+.home-nav {
+     display: flex;
+     align-items: center;
+}
+
+.cart-div {
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     gap: 30px;
+     margin-top: 33px;
+}
+
+.cart-1, .cart-2 {
+     border-radius: 20px;
+     transition: all 0.3s ease;
+     border: 6px #ffae00 solid;
+}
+
+.cart-1 {
+     width: 650px;
+     height: 430px;
+     background: linear-gradient(35deg, #0000ff, #ff4d4d);
+     color: white;
+     margin-left: 1%;
+}
+
+.cart-1:hover {
+     box-shadow: 0px 0px 15px #ffae00;
+}
+
+.cart-2 {
+     width: 400px;
+     height: 430px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     background: linear-gradient(350deg, #0000ff, #ff4d4d);
+     color: white;
+}
+
+.cart-2:hover {
+     box-shadow: 0px 0px 15px #ffae00;
+}
+
+.home-h1, .home-text {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.private-text {
+     color: rgb(244, 108, 50);
+     transition: all 0.3s ease;
+}
+
+.private-text:hover {
+     color: black;
+     border-radius: 6px;
+}
+
+.btn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.support {
+     color: #fff;
+     font-size: x-large;
+     border: none;
+     border-radius: 7px;
+     margin-left: 20px;
+     margin-top: 2px;
+     padding: 5px 10px;
+     background: linear-gradient(35deg, #e08600,#c08000);
+     cursor: pointer;
+     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+     transition: all 0.3s ease;
+}
+
+.support:hover {
+     box-shadow: 0px 0px 5px #ae7804;
+}
+
+.social-media {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     margin: 20px 0;
+}
+
+.icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 300px;
+     height: 50px;
+     border-radius: 12px;
+     font-size: 24px;
+     color: white;
+     text-decoration: none;
+     transition: all 0.3s ease;
+     margin-top: 30px;
+}
+
+.icon:hover {
+     transform: scale(1.06);
+     background-color: #ae7804;
+}
+
+#instagram {
+     background: linear-gradient(35deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+}
+
+#tiktok {
+     background: linear-gradient(135deg, #303030, #dc0000);
+}
+
+#in {
+     background-color: #123981;
+}
+
+#facebook {
+     background-color: #0059ff;
+}

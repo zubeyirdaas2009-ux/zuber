@@ -1,0 +1,141 @@
+body {
+     margin: 0;
+     background-color: #333333;
+     font-family: "Cairo", sans-serif;
+}
+
+.cart-div {
+     display: flex;
+     justify-content: center;
+     margin-top: 33px;
+}
+
+.cart-1 {
+     width: 1000px;
+     height: 400px;
+     padding: 20px;
+     border-radius: 20px;
+     background: linear-gradient(35deg, #0000ff, #ff4d4d);
+     border: 6px #ffae00 solid;
+     color: white;
+     transition: all 0.3s ease;
+}
+
+.cart-1:hover {
+     box-shadow: 0px 0px 15px #ffae00;
+}
+
+.home-h1 {
+     display: flex;
+     justify-content: center;
+}
+
+.home-nav {
+     display: flex;
+     align-items: center;
+}
+
+.nav-btn {
+     color: #ae7804;
+     background-color: #333333;
+     border: none;
+     margin-left: 20px;
+     margin-top: 10px;
+     font-size: x-large;
+     cursor: pointer;
+     transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+     color: #0077ff;
+}
+
+.h3 {
+     margin-left: auto;
+     margin-right: 20px;
+     color: #ae7804;
+     transition: 0.3s ease;
+}
+
+.h3:hover {
+     color: #0077ff;
+}
+
+.nav-hr {
+     height: 2px;
+     border: none;
+     background-color: rgb(191, 155, 24);
+     box-shadow: 0px 3px 100px rgb(191, 155, 24);
+}
+
+.social-media {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 30px;
+     padding: 0 20px;
+}
+
+.right-icons {
+     display: flex;
+     flex-direction: column;
+     gap: 18px;
+     align-items: flex-end;
+}
+
+.left-icons {
+     display: flex;
+     flex-direction: column;
+     gap: 18px;
+     align-items: flex-end;
+}
+
+.icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 250px;
+     height: 50px;
+     border-radius: 12px;
+     font-size: 24px;
+     color: white;
+     text-decoration: none;
+     transition: 0.3s ease;
+}
+
+.icon:hover {
+     transform: scale(1.06);
+     background-color: #ae7804;
+}
+
+#instagram {
+     background: linear-gradient(35deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+}
+
+#tiktok {
+     background: linear-gradient(135deg, #000000, #ff0000);
+}
+
+#in {
+     background-color: #123981;
+}
+
+#facebook {
+     background-color: #0059ff;
+}
+
+#whatsapp {
+     background-color: #19c307;
+}
+
+#x{
+     background-color: #000000;
+}
+
+#youtube{
+     background-color: #ff0202;
+}
+
+#google{
+     background-color: #4285F4;
+}
